@@ -1,0 +1,8 @@
+2025/6/3 上午 09:27:34  ==>   Err.Number:-2147217873 Err.Description:ORA-00001: 違反必須為唯一的限制條件 (PGMID.SYS_C0024522)
+RE: AP/fc - LEDES Monthly Invoice for May 2025 for Outokumpu’s patent matters [Our Ref: Y51971000.A12][REP.]
+==>收到日期:20250603 013331
+strSql= insert into Contactfile(CF01,CF02,CF06,CF07,CF09,CF10,CF11,CF12,CF13,CF14) values('KB0000306','KB0000306_20250603013331[OURREF Y51971000.A12].Rx.msg','KB00/KB0000306/KB0000306_20250603013331OURREFY51971000.A12.Rx.msg.001','137','R','Invoices [invoices@questel.com]',20250603,013331,'RE: AP/fc - LEDES Monthly Invoice for May 2025 for Outokumpu’s patent matters [Our Ref: Y51971000.A12][REP.]','A8013')
+2025/6/3 上午 09:28:03  ==>   Err.Number:-2147217873 Err.Description:ORA-00001: 違反必須為唯一的限制條件 (PGMID.SYS_C0024522)
+RE: AP/fc - LEDES Monthly Invoice for May 2025 for Novo Nordisk A/S [Our Ref: Y20412000.A12][REP.]
+==>收到日期:20250603 014110
+strSql= insert into Contactfile(CF01,CF02,CF06,CF07,CF09,CF10,CF11,CF12,CF13,CF14) values('KB0000595','KB0000595_20250603014110[OURREF Y20412000.A12].Rx.msg','KB00/KB0000595/KB0000595_20250603014110OURREFY20412000.A12.Rx.msg.001','136','R','Invoices [invoices@questel.com]',20250603,014110,'RE: AP/fc - LEDES Monthly Invoice for May 2025 for Novo Nordisk A/S [Our Ref: Y20412000.A12][REP.]','A8013')

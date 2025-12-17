@@ -1,0 +1,13 @@
+2025/9/22 上午 11:45:08  ==>  第 1 筆 主旨: FW: PY/py : (回覆) 返稿-FMP專利新申請案; Your R: PI-250405/1V; Our/Ref: P-136116 [DATA.936] (陳亭妙)
+　　　　　　　　　　　　strSender: 葉敏莉(外專.主任.Phoebe) [/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=FD323EBA90D9421CB2C2406EC70290B4-8F5AD5F1-FD]
+　　　　　　　　　　　　strMailDateTime: 2025/09/22 10:02:06
+2025/9/22 上午 11:45:09  ==>  產生暫存電子檔: C:\IPDeptOut\20250922114508.1.msg
+2025/9/22 上午 11:45:09  ==>  找不到對應案件
+2025/9/22 上午 11:51:34  ==>  insert into R100101(R005002,R005004,R005005,R005003,R005007,R005006,R005008,ID) values('2025/09/22','10:02:06','系統Log記錄,不可刪除','葉敏莉(外專.主任.Phoebe) [/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=FD323EBA90D9421CB2C2406EC70290B4-8F5AD5F1-FD]','FW: PY/py : (回覆) 返稿-FMP專利新申請案; Your R: PI-250405/1V; Our/Ref: P-136116 [DATA.936] (陳亭妙)','86024','86013','QPGMR')
+2025/9/22 上午 11:51:34  ==>  [無存卷, 刪除]C:\IPDeptOut\20250922114508.1.msg
+2025/9/22 上午 11:51:34  ==>  bolExecution = True; (全部信件 / 剩餘件數：1 / 1); myItems.Count = 1
+2025/9/22 上午 11:51:34  ==>  strSubject_E = FW: PY/py : (回覆) 返稿-FMP專利新申請案; Your R: PI-250405/1V; Our/Ref: P-136116 [DATA.936] (陳亭妙)
+2025/9/22 上午 11:51:34  ==>  strSocSubject = FW: PY/py : (回覆) 返稿-FMP專利新申請案; Your R: PI-250405/1V; Our/Ref: P-136116 [DATA.936] (陳亭妙)
+2025/9/22 上午 11:51:34  ==>  IPDeptBackupMail 處理完畢，刪除郵件 => IPDeptBackupMail
+2025/9/22 上午 11:51:34  ==>  刪除郵件(1):FW: PY/py : (回覆) 返稿-FMP專利新申請案; Your R: PI-250405/1V; Our/Ref: P-136116 [DATA.936] (陳亭妙)
+

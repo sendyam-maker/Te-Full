@@ -1,0 +1,4 @@
+2025/8/27 下午 01:55:23  ==>   Err.Number:-2147217873 Err.Description:ORA-00001: 違反必須為唯一的限制條件 (PGMID.SYS_C00122834)
+RE: AH/ch - Meeting Request | September 2025 [Our Ref: R13314000.B12]
+==>收到日期:20250825 155147
+strSql= insert into Contactfile(CF01,CF02,CF06,CF07,CF09,CF10,CF11,CF12,CF13,CF14) values('KB4000988','KB4000988_20250825155147[OURREF R13314000.B12].Rx.msg','KB40/KB4000988/KB4000988_20250825155147OURREFR13314000.B12.Rx.msg.001','193','R','Nirupam Lodha [nirupam.lodha@khaitanco.com]',20250825,155147,'RE: AH/ch - Meeting Request | September 2025 [Our Ref: R13314000.B12]','A4009')
