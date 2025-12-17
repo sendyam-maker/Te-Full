@@ -1,0 +1,97 @@
+[Root]
+Most Recent Package=標準安裝封裝
+
+
+[Package|標準安裝封裝|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\taie\自動批次\Package
+
+[Package|標準安裝封裝|Configure DAO ISAMs]
+Applicable=No
+
+[Package|標準安裝封裝|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|標準安裝封裝|Files Found]
+
+[Package|標準安裝封裝|Files Released]
+
+[Package|標準安裝封裝|Missing Dependency Information]
+
+[Package|標準安裝封裝|Out-of-Date Dependency Information]
+
+[Package|標準安裝封裝|Files Added]
+
+[Package|標準安裝封裝|Files Removed]
+
+[Package|標準安裝封裝|Files In Project]
+C:\taie\自動批次\TeAutoBatch.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6CHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMPICHT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|標準安裝封裝|Configure Registry Files]
+Applicable=No
+
+[Package|標準安裝封裝|Configure Remote Servers]
+Applicable=No
+
+[Package|標準安裝封裝|Install Locations]
+C:\taie\自動批次\TeAutoBatch.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6CHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMPICHT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|標準安裝封裝|Configure Shared Files]
+Applicable=Yes
+C:\taie\自動批次\TeAutoBatch.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|標準安裝封裝|Distribution]
+Type=single
+Size=
+Title=Taie 自動批次執行
+
+[Package|標準安裝封裝|IconGroups]
+Group0=Taie 自動批次執行
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|標準安裝封裝|Taie 自動批次執行]
+Icon1=TeAutoBatch.exe
+Title1=Taie 自動批次執行
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|標準安裝封裝|Package]
+PackageFolder=C:\taie\自動批次\Package
+ProjectFolder=C:\taie\自動批次
+ServerSideCab=
+File1=C:\taie\自動批次\Package\setup.exe
+File2=C:\taie\自動批次\Package\Setup.Lst
+File3=C:\taie\自動批次\Package\TeAutoBatch.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,24 @@
+          客戶平台下次更新日期將到期通知
+
+平台編號  平台名稱             平台類別   帳號                 下次更新日期
+========= ==================== ========== ==================== ============
+0013      Anaqua               IP管理     Phoebe86024@taie.com 108/10/13   
+0034      (Wolters Kluwer-ELM  IP管理     yvonne99009@taie.com 108/12/31   
+0055      Novartis eSourcing   IP管理     AmandaHung           108/12/31   
+0010      桂齊恆智財軟體憑證(  憑證       F104187291           109/01/13   
+0015      Corridor(by Bridgewa IP管理     taiAdmin             109/06/10   
+0026      (Wolters Kluwer) Tym 電子帳單   Jasmine              109/06/30   
+0034      (Wolters Kluwer-ELM  IP管理     elisa96022@taie.com. 109/07/10   
+0004      台一國際專利法律事務 憑證       00145100202330       109/07/27   
+0004      台一國際專利法律事務 憑證       04146457-11          109/07/27   
+0015      Corridor(by Bridgewa IP管理     TAIEIP               109/09/09   
+0031      HP Supplier Portal ( 檔案存取   elvan99033@taie.com. 109/09/18   
+0013      Anaqua               IP管理     Sharon86013@taie.com 109/10/16   
+0013      Anaqua               IP管理     jim97021@taie.com.tw 109/10/27   
+0034      (Wolters Kluwer-ELM  IP管理     ipdept@taie.com.tw   109/11/06   
+0036      ipBOX                IP管理     56185                109/11/12   
+0060      iDGARD               檔案存取   ipdept               109/11/21   
+0061      TRANSPORT            IP管理     annya4011@taie.com.t 109/11/26   
+0013      Anaqua               IP管理     Elisa96022@taie.com. 109/11/30   
+0013      Anaqua               IP管理     annya4011@taie.com.t 109/11/30   
+0042      Tungsten-Network     電子帳單   ipdept@taie.com.tw   109/11/30   
