@@ -1,0 +1,174 @@
+
+FCP程式修改:
+5/9   新增:電子公文來函(frm060119)
+5/10  修改:實審通知日輸入(frm06010601,frm06010601_1,frm06010601_2)
+5/10  修改:核准函輸入(frm06010602_1,frm06010602_2,frm06010602_3)
+5/10  修改:核駁函輸入(frm06010603_1,frm06010603_2,frm06010603_3)
+5/10  修改:專利權消滅函輸入(frm06010608_1,frm06010608_2,frm06010608_3)
+5/10  修改:一般來函輸入(frm06010604_1,frm06010604_2,frm06010604_3)
+5/10  修改:異議/舉發受理函輸入(frm06010606_1,frm06010606_2)
+
+frm06010602_1:
+'Added by Morgan 2017/5/10 電子公文
+Public m_RDate As String
+Public m_DocWord As String
+Public m_DocNo As String
+Public m_DocDate As String
+Public m_AppNo As String
+Public m_DeadLine As String
+Public m_NewCP10 As String
+Dim m_Done As Boolean
+'end 2017/5/10
+
+Private Sub Form_Activate()
+   'Added by Morgan 2017/5/10 電子公文
+   If m_AppNo <> "" And m_Done = False Then
+      Option1(0).Value = True
+      Text7.Text = m_AppNo
+      Text5.Text = m_RDate
+      Command1.Value = True
+      m_Done = True
+   End If
+   'end 2017/5/10
+
+frm06010602_2:
+Private Sub FormConfirm()
+...
+   If InStr(CaseMapIn & ",107", strCP10) = 0 And (strCP10 < "3" Or strCP10 >= "4") Then
+      If ClsLawChkMRec(TransDate(frm06010602_1.Text5, 2), Text2 & Text3 & Text4 & Text5, strTmp(1), strTmp(2)) Then
+         If strTmp(1) <> "" Then
+            If MsgBox("與櫃台之來函收文記錄期限 ( " & TransDate(strTmp(1), 1) & ") 不符，請確認 !", vbCritical + vbYesNo) = vbNo Then Exit Sub
+         End If
+      'Modified by Morgan 2017/5/10 電子公文
+      'Else
+      ElseIf frm06010602_1.m_DocNo = "" Then
+      'end 2017/5/10
+         If MsgBox("來函記錄檔無此記錄，請確認 !", vbCritical + vbYesNo) = vbNo Then Exit Sub
+      End If
+   '新申請案或改請案只檢查是否有來函記錄
+   Else
+      If ClsLawChkMRec(TransDate(frm06010602_1.Text5, 2), Text2 & Text3 & Text4 & Text5, strTmp(1), strTmp(2)) Then
+      'Modified by Morgan 2017/5/10 電子公文
+      'Else
+      ElseIf frm06010602_1.m_DocNo = "" Then
+      'end 2017/5/10
+         If MsgBox("來函記錄檔無此記錄，請確認 !", vbCritical + vbYesNo) = vbNo Then Exit Sub
+      End If
+   End If
+   '2011/7/12 END
+...
+Private Sub cmdok_Click(Index As Integer)
+...
+   'Added by Morgan 2017/5/10 電子公文
+   frm06010603_3.m_DocWord = frm06010603_1.m_DocWord
+   frm06010603_3.m_DocNo = frm06010603_1.m_DocNo
+   frm06010603_3.m_DocDate = frm06010603_1.m_DocDate
+   frm06010603_3.m_AppNo = frm06010603_1.m_AppNo
+   frm06010603_3.m_DeadLine = frm06010603_1.m_DeadLine
+   'end 2017/5/10
+   frm06010603_3.Show
+   Me.Hide
+...
+
+frm06010603_3:
+'Added by Morgan 2017/5/10 電子公文
+Public m_DocWord As String
+Public m_DocNo As String
+Public m_DocDate As String
+Public m_AppNo As String
+Public m_DeadLine As String
+'end 2017/5/10
+
+Private Sub Form_Load()
+...
+   Text9.Text = "（" & strTmp & "）智專一（二）字第號"
+   
+   'Added by Morgan 2017/5/10 電子公文
+   If m_DocNo <> "" Then
+      If m_DocWord <> "" Then
+         Text9 = m_DocWord & "字第" & m_DocNo & "號"
+      ElseIf m_DocNo <> "" Then
+         Text9 = Replace(Text9, "第號", "第" & m_DocNo & "號")
+      End If
+      If m_DocDate <> "" Then
+         Text6 = TransDate(m_DocDate, 1)
+      End If
+      
+      '國際分類
+      If PUB_GetEDocData(m_DocNo, strExc(1), strExc(2)) Then
+         If Text15 = "" Then Text15 = Left(strExc(2), 4)
+      End If
+   
+      '期限
+      If m_DeadLine <> "" Then
+         Option1(1).Value = True
+         If Len(m_DeadLine) >= 7 Then
+            Option4(2).Value = True
+            Text12 = m_DeadLine
+            Text12_Validate False
+         ElseIf Right(m_DeadLine, 1) = "日" Then
+            Option4(0).Value = True
+            Text10 = Val(m_DeadLine)
+            Text10_Validate False
+         ElseIf Right(m_DeadLine, 1) = "月" Then
+            Option4(1).Value = True
+            Text11 = Val(m_DeadLine)
+            Text11_Validate False
+         End If
+      End If
+   End If
+   'end 2017/5/10
+...
+Private Sub cmdok_Click(Index As Integer)
+...
+         'Modified by Morgan 2017/5/10 電子公文
+         'frm06010602_1.Show
+         If m_DocNo <> "" Then
+            Unload frm06010602_1
+            frm060119.GoNext
+         Else
+            frm06010602_1.Show
+         End If
+         'end 2017/5/10
+
+         Unload frm06010602_2
+         Unload Me
+...
+
+Private Function TxtValidate() As Boolean
+...
+   If ClsLawChkMRec(TransDate(Label3(3).Caption, 2), pa(1) & pa(2) & pa(3) & pa(4), strExc(1), strExc(2)) Then
+...
+               'Added by Morgan 2017/5/10 電子公文
+               ElseIf m_DocNo <> "" Then
+                  If m_DeadLine <> "" Then
+                     If Len(m_DeadLine) >= 7 Then
+                        strExc(2) = m_DeadLine
+                     ElseIf Right(m_DeadLine, 1) = "日" Then
+                        strExc(2) = CompDate(2, Val(m_DeadLine), Label3(3))
+                     ElseIf Right(m_DeadLine, 1) = "月" Then
+                        strExc(2) = CompDate(1, Val(m_DeadLine), Label3(3))
+                     End If
+                     If Text14(1) <> TransDate(strExc(2), 1) Then
+                        If MsgBox("與電子公文之法定期限 ( " & TransDate(strExc(2), 1) & ") 不符，請確認 !", vbCritical + vbYesNo + vbDefaultButton2) = vbNo Then
+                           Exit Function
+                        End If
+                     End If
+                  End If
+               'end 2017/5/10
+         Else
+            If MsgBox("來函記錄檔無此記錄，請確認 !", vbCritical + vbYesNo + vbDefaultButton2) = vbNo Then
+               Exit Function
+            End If
+         End If
+...
+Private Function FormSave() As Boolean
+...
+   'Added by Morgan 2017/5/10 電子公文
+   If m_DocNo <> "" Then
+      PUB_UpdateEdocRec m_DocNo, NewReceiveNo, pa(1), pa(2), pa(3), pa(4), strCP10
+   End If
+   'end 2017/5/10
+   
+   cnnConnection.CommitTrans
+...

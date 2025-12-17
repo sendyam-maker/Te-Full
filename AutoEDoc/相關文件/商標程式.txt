@@ -1,0 +1,180 @@
+商標程式修改:
+3/21 新增:電子公文來函(frm02010412)
+<內商T>
+4/12 修改:非爭議案核准輸入(frm02010401_1,frm02010401_2,frm02010401_3,frm02010401_4,frm02010401_6)
+4/17 修改:審查報告輸入(frm02010403_1,frm02010403_3,frm02010403_4)
+4/20 修改:非爭議案核駁輸入(frm02010402_1,frm02010402_3,frm02010402_4)
+4/21 修改:非爭議案取消催審期限(frm02010405_1,frm02010405_2,frm02010405_3,frm02010405_4)
+4/24 修改:商標案被禁止處分(frm02010406_1,frm02010406_2,frm02010406_3)
+4/24 修改:延期受理(frm02010407_1,frm02010407_2,frm02010407_3,frm02010407_4)
+4/24 修改:其他來函輸入(frm02010408_1,frm02010408_2,frm02010408_3,frm02010408_4)
+4/24 修改:智慧局註冊費通知函輸入(frm02010411_1,frm02010411_2,frm02010411_3)
+4/24 修改:爭議案勝訴輸入(frm02010501_1,frm02010501_2,frm02010501_3,frm02010501_4)
+4/25 修改:爭議案敗訴輸入(frm02010502_1,frm02010502_2,frm02010502_3,frm02010502_4)
+4/25 修改:被異議/...(frm02010503_1,frm02010503_2,frm02010503_3,frm02010503_4)
+4/25 修改:發回補理由/...(frm02010504_1,frm02010504_2,frm02010504_3,frm02010504_4)
+4/25 修改:撤銷原處分/...(frm02010505_1,frm02010505_2,frm02010505_3,frm02010505_4)
+4/26 修改:受理(frm02010506_1,frm02010506_2,frm02010506_3,frm02010506_4)
+4/26 修改:延長審查時間(frm02010507_1,frm02010507_2,frm02010507_3,frm02010507_4)
+4/26 修改:對方撤回(frm02010508_1,frm02010508_2,frm02010508_3,frm02010508_4)
+4/27 修改:爭議案部分勝部分敗輸入(frm02010509_1,frm02010509_2,frm02010509_3,frm02010509_4)
+<外商FCT>
+5/2  修改:FCT非爭議案核准輸入(frm03020401_01,frm03020401_02,frm03020401_03,frm03020401_04,frm03020401_06)
+5/3  修改:FCT非爭議案核駁輸入(frm03020402_01,frm03020402_02,frm03020402_03,frm03020402_04)
+5/4  修改:FCT審查報告輸入(frm03020403_01,frm03020403_02,frm03020403_03,frm03020403_04)
+5/8  修改:FCT非爭議案取消催審期限(frm03020405_01,frm03020405_02,frm03020405_03,frm03020405_04)
+5/8  修改:FCT商標案被禁止處分(frm03020406_01,frm03020406_02,frm03020406_03)
+5/9  修改:FCT延期受理(frm03020407_01,frm03020407_02,frm03020407_03,frm03020407_04)
+5/9  修改:FCT其他來函輸入(frm03020408_01,frm03020408_02,frm03020408_03,frm03020408_04)
+5/9  修改:FCT通知已轉他所(frm03020405_02,frm03020405_05)
+
+frm02010403_1:
+'Added by Morgan 2017/5/9 電子公文
+Public m_RDate As String
+Public m_DocWord As String
+Public m_DocNo As String
+Public m_AppNo As String
+Public m_DeadLine As String
+Public m_NewCP10 As String
+Dim m_Done As Boolean
+'end 2017/5/9
+
+Private Sub Form_Activate()
+   'Added by Morgan 2017/5/9 電子公文
+   If m_AppNo <> "" And m_Done = False Then
+      radio(0).Value = True
+      textTM12.Text = m_AppNo
+      textCP05.Text = m_RDate
+      cmdOK.Value = True
+      m_Done = True
+   End If
+   'end 2017/5/9
+End Sub
+
+Private Sub radio_Click(Index As Integer)
+   m_KeySel = Index
+   UpdateCtrlState
+   ' 設定游標停留的位置
+   If Me.Visible Then 'Added by Morgan 2017/5/9 電子公文
+      Select Case Index
+         Case 0: textTM12.SetFocus
+         Case 1: textTM15.SetFocus
+         Case 2: textTM01.SetFocus
+      End Select
+   End If
+End Sub
+
+frm02010407_2:
+' 檢查來函記錄檔
+Private Function PromptIfTaiwanNoResult() As Boolean
+...
+   'Modified by Morgan 2017/5/9 電子公文
+   'If bPrompt = True Then
+   If bPrompt = True And frm02010407_1.m_DocNo = "" Then
+   'end 2017/5/9
+      strTit = "資料檢核"
+...
+End Function
+
+frm02010403_3:
+Private Sub Initial()
+   textResult = "1"
+   'Added by Morgan 2017/5/9 電子公文
+   Select Case frm02010403_1.m_NewCP10
+      Case "1201"
+         textResult = "1"
+      Case "1202"
+         textResult = "2"
+      Case "1205"
+         textResult = "3"
+   End Select
+   'end 2017/5/9
+End Sub
+
+Private Sub DisplayNextForm()
+...   
+   frm02010403_4.SetData 5, m_CP09, False
+   'Added by Morgan 2017/5/9 電子公文
+   frm02010403_4.m_DocWord = frm02010403_1.m_DocWord
+   frm02010403_4.m_DocNo = frm02010403_1.m_DocNo
+   frm02010403_4.m_AppNo = frm02010403_1.m_AppNo
+   frm02010403_4.m_DeadLine = frm02010403_1.m_DeadLine
+   'end 2017/5/9
+   Me.Hide
+...   
+End Sub
+
+frm02010403_4:
+'Added by Morgan 2017/5/9 電子公文
+Public m_DocWord As String
+Public m_DocNo As String
+Public m_AppNo As String
+Public m_DeadLine As String
+'end 2017/5/9
+
+Public Sub QueryData()
+...
+   Call ChgType 'Add By Sindy 2012/4/17 讀取來函期限
+   
+   'Added by Morgan 2017/5/9 電子公文
+   If m_DocWord <> "" Then
+      textCP08 = m_DocWord & "字第" & m_DocNo & "號"
+   ElseIf m_DocNo <> "" Then
+      textCP08 = Replace(textCP08, "第號", "第" & m_DocNo & "號")
+   End If
+   '期限
+   If m_DeadLine <> "" Then
+      Option1(1).Value = True
+      If Len(m_DeadLine) >= 7 Then
+         Option4(2).Value = True
+         Text12 = m_DeadLine
+         Text12_Validate False
+      ElseIf Right(m_DeadLine, 1) = "日" Then
+         Option4(0).Value = True
+         Text10 = Val(m_DeadLine)
+         Text10_Validate False
+      ElseIf Right(m_DeadLine, 1) = "月" Then
+         Option4(1).Value = True
+         Text11 = Val(m_DeadLine)
+         Text11_Validate False
+      End If
+   End If
+   'end 2017/5/9
+   
+   ' 本案期限
+   InitialGrdList
+...
+
+Private Function TxtValidate() As Boolean
+...
+         If IsMailRecNoTermExist(m_TM01, m_TM02, m_TM03, m_TM04, m_CP05) = False Then  '2011/6/15 ADD BY SONIA
+            If m_DocNo = "" Or textCP07 <> "" Then 'Added by Morgan 2017/5/9 電子公文
+               strTit = "資料檢核"
+'''
+
+Public Function OnSaveData() As Boolean
+...
+   'Added by Morgan 2017/5/9 電子公文
+   If m_DocNo <> "" Then
+      PUB_UpdateEdocRec m_DocNo, strCP09, m_TM01, m_TM02, m_TM03, m_TM04, StrCp10
+   End If
+   'end 2017/5/9
+   
+'Add By Cheng 2002/11/07
+cnnConnection.CommitTrans
+...
+
+Private Sub cmdok_Click()
+...
+      Unload frm02010403_2      
+      'Modified by Morgan 2017/5/9 電子公文
+      'frm02010403_1.Show
+      If m_DocNo <> "" Then
+         Unload frm02010403_1
+         frm02010412.GoNext
+      Else
+         frm02010403_1.Show
+      End If
+      'end 2017/5/9
+   End If
+...

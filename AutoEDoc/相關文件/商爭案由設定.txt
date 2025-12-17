@@ -1,0 +1,11 @@
+--參考收文簿規則('異議','廢止','評定','答辯','應予撤銷','註冊無效','提訴願理由','原處份撤銷','陳述意見')
+update edoccodemap set em07='Y' where em01='T' and instr(em02,'異議')>0;
+update edoccodemap set em07='Y' where em01='T' and instr(em02,'廢止')>0;
+update edoccodemap set em07='Y' where em01='T' and instr(em02,'評定')>0;
+update edoccodemap set em07='Y' where em01='T' and instr(em02,'答辯')>0;
+update edoccodemap set em07='Y' where em01='T' and instr(em02,'應予撤銷')>0;
+update edoccodemap set em07='Y' where em01='T' and instr(em02,'註冊無效')>0;
+update edoccodemap set em07='Y' where em01='T' and instr(em02,'提訴願理由')>0;
+update edoccodemap set em07='Y' where em01='T' and instr(em02,'原處份撤銷')>0;
+update edoccodemap set em07='Y' where em01='T' and instr(em02,'陳述意見')>0;
+commit;
