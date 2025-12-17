@@ -1,0 +1,354 @@
+[Root]
+Most Recent Package=Μゅ╰参
+
+
+[Package|Μゅ╰参|Μゅ╰参]
+Icon1=Writer.exe
+Title1=Μゅ╰参
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Μゅ╰参|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=f:\PolyCOM\Setup\Writer
+
+[Package|Μゅ╰参|Configure DAO ISAMs]
+Applicable=Yes
+Lotus=Yes
+Exchange=Yes
+Text=Yes
+Paradox=Yes
+Excel=Yes
+Xbase=Yes
+Jet 2.x=Yes
+
+[Package|Μゅ╰参|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Μゅ╰参|Files Found]
+Case.mdb=D:\Taie\Writer\Case.mdb
+db1.mdb=D:\TAIE\db1.mdb
+db2.mdb=D:\TAIE\Writer\db2.mdb
+
+[Package|Μゅ╰参|Files Released]
+
+[Package|Μゅ╰参|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSEXCH35.DLL=
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=
+D:\Codes\TaieNew\prjTaieDll011.dll=
+D:\Codes\TaieNew\prjTaieDll002.dll=
+D:\Codes\TaieNew\prjTaieLawDll.dll=
+D:\Codes\TaieNew\prjTaieDll003.dll=
+C:\WINDOWS\Desktop\TAIE 890509\prjTaieDll001.dll=
+C:\WINDOWS\Desktop\taie by nick 890925\prjTaieDll.dll=
+C:\WINDOWS\Desktop\TAIE 890509\Gif89.dll=
+C:\Program Files\Common Files\System\ado\MSADO20.TLB=
+C:\TaieNew\prjTaieLawDll.dll=
+C:\TaieNew\prjTaieDll011.dll=
+C:\TaieNew\prjTaieDll003.dll=
+C:\TaieNew\prjTaieDll002.dll=
+C:\TaieNew\prjTaieDll001.dll=
+C:\TaieNew\prjPrintDllLaw.dll=
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=
+C:\TaieNew\prjTaieDll.dll=
+C:\WINDOWS\SYSTEM\Gif89.dll=
+C:\WINDOWS\SYSTEM\MSADO20.TLB=
+D:\Taie\prjTaieLawDll.dll=
+D:\Taie\prjTaieDll011.dll=
+D:\Taie\prjTaieDll003.dll=
+D:\Taie\prjTaieDll002.dll=
+D:\Taie\prjTaieDll001.dll=
+D:\Taie\prjPrintDll001.exe=
+D:\Taie\prjTaieDll.dll=
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=
+
+[Package|Μゅ╰参|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+
+[Package|Μゅ╰参|Files Added]
+case.mdb=
+db1.mdb=
+db2.mdb=
+db3.mdb=
+finance.mdb=
+
+[Package|Μゅ╰参|Files Removed]
+
+[Package|Μゅ╰参|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6CHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDFTCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\DBRPRCHT.DLL=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\FLXGDCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMDLGCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCMCCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCC2CHT.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=Yes
+C:\WINDOWS\SYSTEM\RCHTXCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCH2CHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\WINSKCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMPICHT.DLL=Yes
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=Yes
+C:\WINDOWS\SYSTEM\SYSINCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMSKCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\DATGDCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCT3CHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM\ADODCCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSHFGCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSEXCL35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSEXCH35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSLTUS35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=Yes
+C:\WINDOWS\SYSTEM\RDO20CHT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\SYSTEM\MSPDOX35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSXBSE35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\Gif89.dll=Yes
+D:\Taie\Writer.exe=Yes
+D:\Taie\prjTaieDll.dll=Yes
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=Yes
+D:\Taie\prjTaieDll001.dll=Yes
+D:\Taie\prjTaieDll002.dll=Yes
+D:\Taie\prjTaieDll003.dll=Yes
+D:\Taie\prjTaieDll011.dll=Yes
+D:\Taie\prjTaieLawDll.dll=Yes
+D:\Taie\Writer\Case.mdb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\TAIE\db1.mdb=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=Yes
+D:\TAIE\Writer\db2.mdb=Yes
+D:\TAIE\Writer\db3.mdb=Yes
+D:\TAIE\Writer\finance.mdb=Yes
+
+[Package|Μゅ╰参|Configure Registry Files]
+Applicable=No
+
+[Package|Μゅ╰参|Configure Remote Servers]
+Applicable=No
+
+[Package|Μゅ╰参|Install Locations]
+D:\Codes\TaieNew\Writer.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6CHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\STDFTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBRPRCHT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\MSADO20.TLB=$(WinSysPath)
+C:\WINDOWS\Desktop\TAIE 890509\Gif89.dll=$(AppPath)
+C:\WINDOWS\Desktop\taie by nick 890925\prjTaieDll.dll=$(AppPath)
+C:\WINDOWS\Desktop\TAIE 890509\prjTaieDll001.dll=$(AppPath)
+D:\Codes\TaieNew\prjTaieDll003.dll=$(AppPath)
+D:\Codes\TaieNew\prjTaieLawDll.dll=$(AppPath)
+D:\Codes\TaieNew\prjTaieDll002.dll=$(AppPath)
+D:\Codes\TaieNew\prjTaieDll011.dll=$(AppPath)
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\FLXGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCC2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RCHTXCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCH2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\WINSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMPICHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DATGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCT3CHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ADODCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHFGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDO20CHT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\SYSTEM\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Codes\TaieNew\Writer\Case.mdb=$(AppPath)
+D:\Codes\TaieNew\Writer\db1.mdb=$(AppPath)
+D:\Codes\TaieNew\Writer\db2.mdb=$(AppPath)
+D:\Codes\TaieNew\Writer\db3.mdb=$(AppPath)
+D:\Codes\TaieNew\Writer\finance.mdb=$(AppPath)
+C:\TaieNew\Writer.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSADO20.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Gif89.dll=$(WinSysPath)
+C:\TaieNew\prjTaieDll.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=$(WinSysPath)
+C:\TaieNew\prjPrintDllLaw.dll=$(WinSysPath)
+C:\TaieNew\prjTaieDll001.dll=$(WinSysPath)
+C:\TaieNew\prjTaieDll002.dll=$(WinSysPath)
+C:\TaieNew\prjTaieDll003.dll=$(WinSysPath)
+C:\TaieNew\prjTaieDll011.dll=$(WinSysPath)
+C:\TaieNew\prjTaieLawDll.dll=$(WinSysPath)
+C:\TaieNew\Writer\Case.mdb=$(AppPath)
+C:\TaieNew\Writer\db1.mdb=$(AppPath)
+C:\TaieNew\Writer\db2.mdb=$(AppPath)
+C:\TaieNew\Writer\db3.mdb=$(AppPath)
+C:\TaieNew\Writer\finance.mdb=$(AppPath)
+D:\Taie\Writer.exe=$(AppPath)
+D:\Taie\prjTaieDll.dll=$(WinSysPath)
+D:\Taie\prjPrintDll001.exe=$(WinSysPath)
+D:\Taie\prjTaieDll001.dll=$(WinSysPath)
+D:\Taie\prjTaieDll002.dll=$(WinSysPath)
+D:\Taie\prjTaieDll003.dll=$(WinSysPath)
+D:\Taie\prjTaieDll011.dll=$(WinSysPath)
+D:\Taie\prjTaieLawDll.dll=$(WinSysPath)
+D:\Taie\Writer\Case.mdb=$(AppPath)
+D:\Taie\Writer\db1.mdb=$(AppPath)
+D:\Taie\Writer\db2.mdb=$(AppPath)
+D:\Taie\Writer\db3.mdb=$(AppPath)
+D:\Taie\Writer\finance.mdb=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\TAIE\db1.mdb=$(AppPath)
+D:\TAIE\db2.mdb=$(AppPath)
+D:\TAIE\db3.mdb=$(AppPath)
+D:\TAIE\finance.mdb=$(AppPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=$(WinSysPath)
+
+[Package|Μゅ╰参|Configure Shared Files]
+Applicable=Yes
+D:\Codes\TaieNew\Writer.exe=No
+C:\WINDOWS\Desktop\TAIE 890509\Gif89.dll=Yes
+C:\WINDOWS\Desktop\taie by nick 890925\prjTaieDll.dll=Yes
+C:\WINDOWS\Desktop\TAIE 890509\prjTaieDll001.dll=Yes
+D:\Codes\TaieNew\prjTaieDll003.dll=Yes
+D:\Codes\TaieNew\prjTaieLawDll.dll=Yes
+D:\Codes\TaieNew\prjTaieDll002.dll=Yes
+D:\Codes\TaieNew\prjTaieDll011.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Codes\TaieNew\Writer\Case.mdb=No
+D:\Codes\TaieNew\Writer\db1.mdb=No
+D:\Codes\TaieNew\Writer\db2.mdb=No
+D:\Codes\TaieNew\Writer\db3.mdb=No
+D:\Codes\TaieNew\Writer\finance.mdb=No
+C:\TaieNew\Writer.exe=No
+C:\TaieNew\Writer\Case.mdb=No
+C:\TaieNew\Writer\db1.mdb=No
+C:\TaieNew\Writer\db2.mdb=No
+C:\TaieNew\Writer\db3.mdb=No
+C:\TaieNew\Writer\finance.mdb=No
+D:\Taie\Writer.exe=No
+D:\Taie\Writer\Case.mdb=No
+D:\Taie\Writer\db1.mdb=No
+D:\Taie\Writer\db2.mdb=No
+D:\Taie\Writer\db3.mdb=No
+D:\Taie\Writer\finance.mdb=No
+D:\TAIE\db1.mdb=No
+D:\TAIE\db2.mdb=No
+D:\TAIE\db3.mdb=No
+D:\TAIE\finance.mdb=No
+
+[Package|Μゅ╰参|Distribution]
+Type=single
+Size=
+Title=Μゅ╰参
+
+[Package|Μゅ╰参|Package]
+PackageFolder=f:\PolyCOM\Setup\Writer
+ProjectFolder=D:\TAIE\Writer
+ServerSideCab=
+File1=f:\PolyCOM\Setup\Writer\setup.exe
+File2=f:\PolyCOM\Setup\Writer\Setup.Lst
+File3=f:\PolyCOM\Setup\Writer\Writer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Μゅ╰参|IconGroups]
+Group0=ン恨瞶╰参
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Μゅ╰参|ン恨瞶╰参]
+Icon1=Writer.exe
+Title1=Μゅ╰参
+StartIn1=$(AppPath)
+Key1=Icon1
