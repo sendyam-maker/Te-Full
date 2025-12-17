@@ -1,0 +1,198 @@
+[Root]
+Most Recent Package=癩叭╰参
+
+
+[Package|癩叭╰参|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=f:\PolyCOM\Setup\Finance
+
+[Package|癩叭╰参|Configure DAO ISAMs]
+Applicable=No
+
+[Package|癩叭╰参|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|癩叭╰参|Files Found]
+
+[Package|癩叭╰参|Files Released]
+
+[Package|癩叭╰参|Missing Dependency Information]
+D:\Taie\prjTaieDll003.dll=
+D:\Taie\prjTaieLawDll.dll=
+D:\Taie\prjTaieDll.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=
+C:\WINDOWS\SYSTEM\ORADC.OCX=
+D:\Taie\Finance\AccReport.exe=
+D:\Taie\prjPrintDll001.exe=
+
+[Package|癩叭╰参|Out-of-Date Dependency Information]
+
+[Package|癩叭╰参|Files Added]
+D:\Taie\Finance\AccReport.exe=
+D:\Taie\prjPrintDll001.exe=
+D:\Taie\finance.mdb=
+D:\Taie\db1.mdb=
+D:\Taie\db2.mdb=
+D:\Taie\db3.mdb=
+D:\Taie\Case.mdb=
+
+[Package|癩叭╰参|Files Removed]
+c:\program files\common files\system\ado\msado25.tlb=
+
+[Package|癩叭╰参|Files In Project]
+D:\Taie\Teaccount.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6CHT.DLL=Yes
+C:\WINDOWS\SYSTEM\ORADC.OCX=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDFTCHT.DLL=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\DBRPRCHT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=No
+D:\Taie\prjTaieDll.dll=Yes
+D:\Taie\prjTaieLawDll.dll=Yes
+D:\Taie\prjTaieDll003.dll=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\FLXGDCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\CMDLGCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCTLCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCT232.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCT2CHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\WINSKCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMPICHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMSKCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\DATGDCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM\ADODCCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSHFGCHT.DLL=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTCHT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\Mdac_typ.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Taie\Finance\AccReport.exe=Yes
+D:\Taie\prjPrintDll001.exe=Yes
+D:\Taie\finance.mdb=Yes
+D:\Taie\db1.mdb=Yes
+D:\Taie\db2.mdb=Yes
+D:\Taie\db3.mdb=Yes
+D:\Taie\Case.mdb=Yes
+
+[Package|癩叭╰参|Configure Registry Files]
+Applicable=No
+
+[Package|癩叭╰参|Configure Remote Servers]
+Applicable=No
+
+[Package|癩叭╰参|Install Locations]
+D:\Taie\Teaccount.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6CHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ORADC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\STDFTCHT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBRPRCHT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=$(WinSysPath)
+D:\Taie\prjTaieDll.dll=$(WinSysPath)
+D:\Taie\prjTaieLawDll.dll=$(WinSysPath)
+D:\Taie\prjTaieDll003.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\FLXGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCTLCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCT2CHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\WINSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMPICHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMSKCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DATGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ADODCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHFGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTCHT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\Mdac_typ.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Taie\Finance\AccReport.exe=$(WinSysPath)
+D:\Taie\prjPrintDll001.exe=$(WinSysPath)
+D:\Taie\finance.mdb=$(AppPath)
+D:\Taie\db1.mdb=$(AppPath)
+D:\Taie\db2.mdb=$(AppPath)
+D:\Taie\db3.mdb=$(AppPath)
+D:\Taie\Case.mdb=$(AppPath)
+
+[Package|癩叭╰参|Configure Shared Files]
+Applicable=Yes
+D:\Taie\Teaccount.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\Mdac_typ.exe=No
+D:\Taie\finance.mdb=No
+D:\Taie\db1.mdb=No
+D:\Taie\db2.mdb=No
+D:\Taie\db3.mdb=No
+D:\Taie\Case.mdb=No
+
+[Package|癩叭╰参|Distribution]
+Type=single
+Size=
+Title=癩叭╰参
+
+[Package|癩叭╰参|IconGroups]
+Group0=ン恨瞶╰参
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|癩叭╰参|ン恨瞶╰参]
+Icon1=Teaccount.exe
+Title1=癩叭╰参
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|癩叭╰参|Package]
+PackageFolder=f:\PolyCOM\Setup\Finance
+ProjectFolder=D:\Taie\Finance
+ServerSideCab=
+File1=f:\PolyCOM\Setup\Finance\setup.exe
+File2=f:\PolyCOM\Setup\Finance\Setup.Lst
+File3=f:\PolyCOM\Setup\Finance\Teaccount.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
