@@ -1,0 +1,408 @@
+VERSION 5.00
+Object = "{0D452EE1-E08F-101A-852E-02608C4D0BB4}#2.0#0"; "FM20.DLL"
+Begin VB.Form frm07100202 
+   BorderStyle     =   1  '單線固定
+   Caption         =   "相對人資料"
+   ClientHeight    =   5292
+   ClientLeft      =   1368
+   ClientTop       =   816
+   ClientWidth     =   6972
+   ControlBox      =   0   'False
+   LinkTopic       =   "Form1"
+   LockControls    =   -1  'True
+   MaxButton       =   0   'False
+   MDIChild        =   -1  'True
+   MinButton       =   0   'False
+   ScaleHeight     =   5292
+   ScaleWidth      =   6972
+   Begin VB.Frame Frame1 
+      Height          =   1815
+      Left            =   120
+      TabIndex        =   3
+      Top             =   960
+      Width           =   6615
+      Begin MSForms.Label lbeCusName 
+         Height          =   285
+         Left            =   2220
+         TabIndex        =   24
+         Top             =   600
+         Width           =   4005
+         BackColor       =   -2147483637
+         VariousPropertyBits=   27
+         Size            =   "7064;503"
+         FontName        =   "新細明體-ExtB"
+         FontHeight      =   180
+         FontCharSet     =   136
+         FontPitchAndFamily=   34
+      End
+      Begin MSForms.ComboBox cboCaseName 
+         Height          =   288
+         Left            =   1224
+         TabIndex        =   23
+         Top             =   912
+         Width           =   5268
+         VariousPropertyBits=   679495707
+         DisplayStyle    =   3
+         Size            =   "9292;508"
+         MatchEntry      =   1
+         ShowDropButtonWhen=   2
+         FontName        =   "新細明體-ExtB"
+         FontHeight      =   180
+         FontCharSet     =   136
+         FontPitchAndFamily=   34
+      End
+      Begin VB.Label lbeDisNum 
+         Height          =   255
+         Left            =   4440
+         TabIndex        =   22
+         Top             =   1403
+         Width           =   1575
+      End
+      Begin VB.Label lbeIsIP 
+         Height          =   255
+         Left            =   2040
+         TabIndex        =   21
+         Top             =   1403
+         Width           =   375
+      End
+      Begin VB.Label lbeCustomer 
+         AutoSize        =   -1  'True
+         Height          =   180
+         Left            =   1200
+         TabIndex        =   20
+         Top             =   600
+         Width           =   885
+      End
+      Begin VB.Label Label2 
+         AutoSize        =   -1  'True
+         Caption         =   "本所案號："
+         Height          =   180
+         Index           =   0
+         Left            =   240
+         TabIndex        =   10
+         Top             =   240
+         Width           =   900
+      End
+      Begin VB.Label Label17 
+         AutoSize        =   -1  'True
+         Caption         =   "當  事  人："
+         Height          =   180
+         Left            =   240
+         TabIndex        =   9
+         Top             =   600
+         Width           =   900
+      End
+      Begin VB.Label lbeNumber 
+         Height          =   255
+         Left            =   1320
+         TabIndex        =   8
+         Top             =   240
+         Width           =   1575
+      End
+      Begin VB.Label Label18 
+         AutoSize        =   -1  'True
+         Caption         =   "分所案號："
+         Height          =   180
+         Index           =   0
+         Left            =   3480
+         TabIndex        =   7
+         Top             =   1440
+         Width           =   900
+      End
+      Begin VB.Label Label25 
+         AutoSize        =   -1  'True
+         Caption         =   "是否為智慧財產權案："
+         Height          =   180
+         Left            =   240
+         TabIndex        =   6
+         Top             =   1440
+         Width           =   1800
+      End
+      Begin VB.Label Label5 
+         AutoSize        =   -1  'True
+         Caption         =   "(Y:是)"
+         Height          =   180
+         Index           =   1
+         Left            =   2640
+         TabIndex        =   5
+         Top             =   1440
+         Width           =   465
+      End
+      Begin VB.Label lblName 
+         AutoSize        =   -1  'True
+         Caption         =   "案件名稱："
+         Height          =   180
+         Index           =   3
+         Left            =   240
+         TabIndex        =   4
+         Top             =   960
+         Width           =   900
+      End
+   End
+   Begin VB.CommandButton Command3 
+      Caption         =   "回前畫面(&U)"
+      CausesValidation=   0   'False
+      Height          =   400
+      Left            =   5628
+      TabIndex        =   19
+      Top             =   70
+      Width           =   1100
+   End
+   Begin VB.CommandButton Command2 
+      Caption         =   "確定(&O)"
+      Default         =   -1  'True
+      Height          =   400
+      Left            =   4800
+      TabIndex        =   18
+      Top             =   70
+      Width           =   800
+   End
+   Begin MSForms.TextBox txtName 
+      Height          =   585
+      Index           =   2
+      Left            =   1590
+      TabIndex        =   2
+      Top             =   4440
+      Width           =   5175
+      VariousPropertyBits=   -1466941413
+      MaxLength       =   600
+      ScrollBars      =   2
+      Size            =   "9128;1032"
+      FontName        =   "新細明體-ExtB"
+      FontHeight      =   180
+      FontCharSet     =   136
+      FontPitchAndFamily=   34
+   End
+   Begin MSForms.TextBox txtName 
+      Height          =   585
+      Index           =   1
+      Left            =   1590
+      TabIndex        =   1
+      Top             =   3675
+      Width           =   5175
+      VariousPropertyBits=   -1466941413
+      MaxLength       =   600
+      ScrollBars      =   2
+      Size            =   "9128;1032"
+      FontName        =   "新細明體-ExtB"
+      FontHeight      =   180
+      FontCharSet     =   136
+      FontPitchAndFamily=   34
+   End
+   Begin MSForms.TextBox txtName 
+      Height          =   585
+      Index           =   0
+      Left            =   1590
+      TabIndex        =   0
+      Top             =   2940
+      Width           =   5175
+      VariousPropertyBits=   -1466941413
+      MaxLength       =   600
+      ScrollBars      =   2
+      Size            =   "9128;1032"
+      FontName        =   "新細明體-ExtB"
+      FontHeight      =   180
+      FontCharSet     =   136
+      FontPitchAndFamily=   34
+   End
+   Begin VB.Label lbeDate 
+      AutoSize        =   -1  'True
+      Height          =   180
+      Left            =   4560
+      TabIndex        =   17
+      Top             =   600
+      Width           =   888
+   End
+   Begin VB.Label Label4 
+      AutoSize        =   -1  'True
+      Caption         =   "對造名稱(日)："
+      Height          =   180
+      Left            =   240
+      TabIndex        =   16
+      Top             =   4440
+      Width           =   1200
+   End
+   Begin VB.Label Label3 
+      AutoSize        =   -1  'True
+      Caption         =   "對造名稱(英)："
+      Height          =   180
+      Left            =   240
+      TabIndex        =   15
+      Top             =   3720
+      Width           =   1200
+   End
+   Begin VB.Label Label19 
+      AutoSize        =   -1  'True
+      Caption         =   "對造名稱(中)："
+      Height          =   180
+      Left            =   240
+      TabIndex        =   14
+      Top             =   3000
+      Width           =   1200
+   End
+   Begin VB.Label Label7 
+      AutoSize        =   -1  'True
+      Caption         =   "收  文  日："
+      Height          =   180
+      Index           =   0
+      Left            =   3600
+      TabIndex        =   13
+      Top             =   600
+      Width           =   900
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      Caption         =   "收  文  號： "
+      Height          =   180
+      Index           =   1
+      Left            =   348
+      TabIndex        =   12
+      Top             =   600
+      Width           =   948
+   End
+   Begin VB.Label lbePaperNum 
+      BeginProperty DataFormat 
+         Type            =   1
+         Format          =   """#-##-######"""
+         HaveTrueFalseNull=   0
+         FirstDayOfWeek  =   0
+         FirstWeekOfYear =   0
+         LCID            =   1028
+         SubFormatType   =   0
+      EndProperty
+      Height          =   252
+      Left            =   1320
+      TabIndex        =   11
+      Top             =   552
+      Width           =   1692
+   End
+End
+Attribute VB_Name = "frm07100202"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+'Memo by Lydia 2021/09/14 改成Form2.0 ; cboCaseName、lbeCusName、txtName(index)
+'Memo By Sindy 2012/12/3 智權人員欄已修改
+'Memo By Sindy 2011/2/16 SQLDate已檢查
+'Memo By Sindy 2010/11/26 員工編號欄已修改
+'Memo By Sindy 2010/8/3 日期欄已修改
+Option Explicit
+
+Dim LcTmp As String
+
+Private Sub Command2_Click()
+   
+   'Added by Lydia 2021/09/14 修正畫面所有含跳行符號的文字框.
+   PUB_FilterFormText Me
+
+   'Added by Lydia 2021/09/14 檢查畫面的 TextBox, ComboBox 是否含有Unicode文字
+   If PUB_ChkUniText(Me, , True, "TextBox") = False Then
+       Exit Sub
+   End If
+
+   'Modified by Lydia 2023/08/08 debug: LA-003285(112/3/16 AB2010200)無法清除資料
+   'If txtName(0) <> "" Or txtName(1) <> "" And txtName(2) <> "" Then
+   If Trim(txtName(0) & txtName(1) & txtName(2)) <> Trim(txtName(0).Tag & txtName(1).Tag & txtName(2).Tag) Then
+      strExc(1) = "update caseprogress set cp40=" & CNULL(ChgSQL(txtName(0))) & ",cp41=" + CNULL(ChgSQL(txtName(1))) + _
+         ",cp42=" & CNULL(ChgSQL(txtName(2))) & " where " & ChgCaseprogress(LcTmp) + " and cp09=" + CNULL(lbePaperNum) + ""
+      
+      Pub_SeekTbLog strExc(1) 'Added by Lydia 2023/08/08
+      'edit by nickc 2007/02/07 不用 dll 了
+      'If Not objLawDll.ExecSQL(1, strExc) Then
+      If Not ClsLawExecSQL(1, strExc) Then
+         DataErrorMessage (3)
+      End If
+   End If
+   frm071002.Show
+   Unload Me
+End Sub
+
+Private Sub Command3_Click()
+   frm071002.Show
+   Unload Me
+End Sub
+
+Private Sub Form_Load()
+ Dim i As Integer, temp(2 To 4) As String
+   MoveFormToCenter Me
+   lbeNumber = frm071002.lbeNumber
+   lbePaperNum = frm071002.lbePaperNum
+   lbeDate = frm071002.Text(0)
+   lbeCustomer = frm071002.Text(1)
+   temp(2) = "中:"
+   temp(3) = "英:"
+   temp(4) = "日:"
+   For i = 2 To 4
+      If frm071002.Text(i) <> "" Then
+         cboCaseName.AddItem temp(i) + frm071002.Text(i)
+      End If
+   Next
+   If cboCaseName.ListCount <> 0 Then
+      cboCaseName.ListIndex = 0
+   End If
+   lbeIsIP = frm071002.Text(5)
+   lbeDisNum = frm071002.Text(6)
+   LcTmp = frm071002.lbeNumber.Tag
+   GetData
+End Sub
+
+Private Sub GetData()
+   strExc(0) = "select cp40,cp41,cp42 from caseprogress where " + ChgCaseprogress(LcTmp) + " and cp09=" + CNULL(lbePaperNum)
+   intI = 0
+   Set RsTemp = ClsLawReadRstMsg(intI, strExc(0))    'edit by nickc 2007/02/07 不用 dll 了 Set rstemp = objLawDll.ReadRstMsg(intI, strExc(0))
+   If intI = 1 Then
+      txtName(0) = IIf(IsNull(RsTemp.Fields!cp40), "", RsTemp.Fields!cp40)
+      txtName(1) = IIf(IsNull(RsTemp.Fields!cp41), "", RsTemp.Fields!cp41)
+      txtName(2) = IIf(IsNull(RsTemp.Fields!cp42), "", RsTemp.Fields!cp42)
+   End If
+   'Modified by Lydia 2023/08/08
+   txtName(0).Tag = txtName(0).Text
+   txtName(1).Tag = txtName(1).Text
+   txtName(2).Tag = txtName(2).Text
+   'end 2023/08/08
+   If UCase(Left(lbeNumber.Caption, 2)) = "LA" Then
+      Label25.Visible = False
+      lbeIsIP.Visible = False
+      Label5(1).Visible = False
+   End If
+End Sub
+
+Private Sub Form_Unload(Cancel As Integer)
+   'Add By Cheng 2002/07/18
+   Set frm07100202 = Nothing
+End Sub
+
+Private Sub lbeCustomer_Change()
+ Dim StrCusName As String, i As Integer
+   If lbeCustomer <> "" Then
+      'edit by nickc 2007/02/07 不用 dll 了
+      'If objPublicData.GetCustomer(lbeCustomer, StrCusName) Then lbeCusName = StrCusName
+      If ClsPDGetCustomer(lbeCustomer, StrCusName) Then lbeCusName = StrCusName
+   End If
+End Sub
+
+Private Sub txtName_GotFocus(Index As Integer)
+   Select Case Index
+      Case Index
+         TextInverse txtName(Index)
+   End Select
+End Sub
+
+'Modified by Lydia 2021/09/14 改成Form 2.0
+'Private Sub txtName_KeyPress(Index As Integer, KeyAscii As Integer)
+Private Sub txtName_KeyPress(Index As Integer, KeyAscii As MSForms.ReturnInteger)
+   Select Case Index
+      Case Index
+         KeyAscii = UpperCase(KeyAscii)
+   End Select
+End Sub
+
+Private Sub txtName_Validate(Index As Integer, Cancel As Boolean)
+   Select Case Index
+      Case 0, 1, 2
+         If txtName(Index) <> "" Then
+           txtName(Index) = UCase(txtName(Index))
+         End If
+   End Select
+End Sub
