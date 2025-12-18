@@ -1,0 +1,9 @@
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\HDE-100 Resource\bin\DEMO.exe
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\HDE-100 Resource\bin\DEMO.pdb
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\HDE-100 Resource\obj\Debug\DEMO.Form1.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\HDE-100 Resource\obj\Debug\DEMO.FrmRAC2000EL.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\HDE-100 Resource\obj\Debug\DEMO.Properties.Resources.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\HDE-100 Resource\obj\Debug\RAC2000ELDEMO.csproj.GenerateResource.Cache
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\HDE-100 Resource\obj\Debug\DEMO.exe
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\HDE-100 Resource\obj\Debug\DEMO.pdb
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\HDE-100 Resource\obj\Debug\RAC2000ELDEMO.csprojResolveAssemblyReference.cache
