@@ -1,0 +1,10 @@
+C:\Users\joe\Desktop\V2.01\HDTAS\Demo\Demo\bin\x86\Debug\Demo.exe
+C:\Users\joe\Desktop\V2.01\HDTAS\Demo\Demo\bin\x86\Debug\Demo.pdb
+C:\Users\joe\Desktop\V2.01\HDTAS\Demo\Demo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\joe\Desktop\V2.01\HDTAS\Demo\Demo\obj\x86\Debug\Demo.FrmMain.resources
+C:\Users\joe\Desktop\V2.01\HDTAS\Demo\Demo\obj\x86\Debug\Demo.FrmHTA.resources
+C:\Users\joe\Desktop\V2.01\HDTAS\Demo\Demo\obj\x86\Debug\Demo.Properties.Resources.resources
+C:\Users\joe\Desktop\V2.01\HDTAS\Demo\Demo\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\joe\Desktop\V2.01\HDTAS\Demo\Demo\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\joe\Desktop\V2.01\HDTAS\Demo\Demo\obj\x86\Debug\Demo.exe
+C:\Users\joe\Desktop\V2.01\HDTAS\Demo\Demo\obj\x86\Debug\Demo.pdb

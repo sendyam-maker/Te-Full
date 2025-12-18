@@ -1,0 +1,10 @@
+D:\SystemSource\SDK_SOURCE_CCH_100408\HDTAS\C# Demo\resource\Demo\Demo\obj\Debug\Demo.exe
+D:\SystemSource\SDK_SOURCE_CCH_100408\HDTAS\C# Demo\resource\Demo\Demo\bin\x86\cchx86\Demo.exe
+D:\SystemSource\SDK_SOURCE_CCH_100408\HDTAS\C# Demo\resource\Demo\Demo\bin\x86\cchx86\Demo.pdb
+D:\SystemSource\SDK_SOURCE_CCH_100408\HDTAS\C# Demo\resource\Demo\Demo\obj\x86\cchx86\ResolveAssemblyReference.cache
+D:\SystemSource\SDK_SOURCE_CCH_100408\HDTAS\C# Demo\resource\Demo\Demo\obj\x86\cchx86\Demo.FrmMain.resources
+D:\SystemSource\SDK_SOURCE_CCH_100408\HDTAS\C# Demo\resource\Demo\Demo\obj\x86\cchx86\Demo.FrmHTA.resources
+D:\SystemSource\SDK_SOURCE_CCH_100408\HDTAS\C# Demo\resource\Demo\Demo\obj\x86\cchx86\Demo.Properties.Resources.resources
+D:\SystemSource\SDK_SOURCE_CCH_100408\HDTAS\C# Demo\resource\Demo\Demo\obj\x86\cchx86\Demo.csproj.GenerateResource.Cache
+D:\SystemSource\SDK_SOURCE_CCH_100408\HDTAS\C# Demo\resource\Demo\Demo\obj\x86\cchx86\Demo.exe
+D:\SystemSource\SDK_SOURCE_CCH_100408\HDTAS\C# Demo\resource\Demo\Demo\obj\x86\cchx86\Demo.pdb

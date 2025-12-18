@@ -1,0 +1,45 @@
+
+1.GCU:
+  1.3 hsGCUSet(傳送通訊命令到GCU)	6
+  2.3 hsGCUInitial (系統初始化)	        13
+  2.4 hsGCUGetInfo (讀取主機版本及其他資訊)15
+  2.19 hsGCUWriteTime (設定主機時間)	30
+  2.20 hsGCUReadTime (讀取主機時間)	31
+2.device
+  2.17 hsGCUSearchDevice (搜尋裝置)	28
+  2.18 hsGCUReadDeviceType(讀取裝置型號)29
+  
+  2.21 hsGCUWriteAnti (啟動或關閉Anti)	32
+  2.22 hsGCUReadAnti (讀取Anti 狀態)	33
+  2.23 hsGCUWriteDevice (裝置寫入)	34
+  2.24 hsGCUReadDevice (裝置讀取)	35
+3.table/card
+  1.4 hsGCUWriteTable(傳送表格到GCU)	8
+  1.5 hsGCUReadTable(讀取GCU表格)	9
+  2.9 hsGCUMatrixWriteTable (多位址設定表)	20
+  2.10 hsGCUMatrixReadTable (多位址讀取表)	21
+  
+  2.5 hsGCUInsertMultiUserRecord (合法卡多筆新增)16
+  2.6 hsGCUDeleteUserRecord (單筆刪除)	18
+  2.7 hsGCUQueryUserRecord (查詢單筆卡號權限)	19
+  2.8 hsGCUDeleteAllUserRecord (刪除全部合法卡)	20
+4.parameter/polling
+  2.1 hsGCUReadParameter(讀取系統參數)	12
+  2.2 hsGCUWriteParameter (設定系統參數)	13
+  2.11 hsGCUWriteOtherParameter (設定其他參數)	22//暂时传入的参数和2.2的一样
+  2.12 hsGCUReadOtherParameter (讀取其他參數)	23//暂时传入的参数和2.10的一样
+  
+  2.13 hsGCUWritePollingID (設定Polling ID)	24
+  2.14 hsGCUReadPollingID (讀取Polling ID)	25
+  2.15 hsGCUWritePollingIDTimeout (設定Polling 參數 Timeout值)	26
+  2.16 hsGCUReadPollingIDTimeout (讀取Polling 參數 Timeout值)	27
+  
+  1.6 hsGCUPollingData (讀取GCU主機上的刷卡及事件記錄)	10
+
+目前存在的问题：
+1.fatal error : device/hsGCUWriteDevice ;
+2.实时错误 “424”：Table/card hsGCUWriteTable ;Table/card hsGCUMatrixWriteTable ;
+3.实时错误 "49" dll调用约定错误：parameter/polling hsGCUPollingData ；
+
+4.error number :5 parameter/Write parameter
+  

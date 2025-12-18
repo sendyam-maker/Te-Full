@@ -1,0 +1,8 @@
+SCC = This is a Source Code Control file
+
+[RAC2KELsample.vbp]
+SCC_Aux_Path = "\\rdvss\SOURCENEW\SOURCESAFE\APSource"
+SCC_Project_Name = "$/SDK/RAC2000EL/RAC2KEL/VB6", TVWFAAAA
+[hta850vbdemo.vbp]
+SCC_Project_Name = "$/SampleCode HTA850PF/HTA850vb6demo", IUFLAAAA
+SCC_Aux_Path = "\\172.16.30.15\APSource"
