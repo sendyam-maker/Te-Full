@@ -1,0 +1,35 @@
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\bin\DEMORAC2000.exe
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\bin\DEMORAC2000.pdb
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.FrmMain.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.FrmRAC2000.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.Properties.Resources.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.ucTimeOfHour.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\RAC200DEMO.csproj.GenerateResource.Cache
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMORAC2000.exe
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMORAC2000.pdb
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMORAC2000.exe
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMORAC2000.pdb
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\bin\DEMORAC2000.exe
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\bin\DEMORAC2000.pdb
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.FrmMain.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.FrmRAC2000.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.Properties.Resources.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.ucTimeOfHour.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\RAC200DEMO.csproj.GenerateResource.Cache
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.FrmDump960.resources
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42_Joe\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\RAC200DEMO.csprojResolveAssemblyReference.cache
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\RAC200DEMO.csprojResolveAssemblyReference.cache
+\\172.16.1.60\sdk\HDACS-需切結書\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.FrmDump960.resources
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMORAC2000.exe
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMORAC2000.pdb
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\bin\DEMORAC2000.exe
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\bin\DEMORAC2000.pdb
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\RAC200DEMO.csprojResolveAssemblyReference.cache
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.FrmDump960.resources
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.FrmMain.resources
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.FrmRAC2000.resources
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.Properties.Resources.resources
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMO.ucTimeOfHour.resources
+D:\Hundure_SDK\V2.42\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\RAC200DEMO.csproj.GenerateResource.Cache
+\\172.16.1.60\sdk\HDACS-需切結書\V2.43\HDACS V2.43\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMORAC2000.exe
+\\172.16.1.60\sdk\HDACS-需切結書\V2.43\HDACS V2.43\RAC&ECU&HDE SDK\DemoCode\RAC-2000 Resource\obj\x86\Debug\DEMORAC2000.pdb
