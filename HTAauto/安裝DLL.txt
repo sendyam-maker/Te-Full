@@ -1,0 +1,1 @@
+複製 HDTAS.dll, HDACS.dll 到執行檔目錄或作業系統目錄(Ex:C:\Windows\SysWOW64)
